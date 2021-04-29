@@ -15,6 +15,8 @@
 		3143208D263B1EA200BA8004 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3143208B263B1EA200BA8004 /* LaunchScreen.storyboard */; };
 		31432098263B1EA300BA8004 /* SimbirSoftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31432097263B1EA300BA8004 /* SimbirSoftTests.swift */; };
 		314320A3263B1EA300BA8004 /* SimbirSoftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314320A2263B1EA300BA8004 /* SimbirSoftUITests.swift */; };
+		314320B7263B1F2F00BA8004 /* RealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314320B6263B1F2F00BA8004 /* RealmManager.swift */; };
+		314320B9263B1F3700BA8004 /* RealmService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314320B8263B1F3700BA8004 /* RealmService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		3143209E263B1EA300BA8004 /* SimbirSoftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimbirSoftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		314320A2263B1EA300BA8004 /* SimbirSoftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimbirSoftUITests.swift; sourceTree = "<group>"; };
 		314320A4263B1EA300BA8004 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		314320B6263B1F2F00BA8004 /* RealmManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmManager.swift; sourceTree = "<group>"; };
+		314320B8263B1F3700BA8004 /* RealmService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,12 +103,15 @@
 		3143207F263B1E9F00BA8004 /* SimbirSoft */ = {
 			isa = PBXGroup;
 			children = (
+				314320B3263B1EDD00BA8004 /* Coordinator */,
+				314320B0263B1EBA00BA8004 /* Model */,
+				314320B1263B1ECE00BA8004 /* View */,
+				314320B2263B1ED300BA8004 /* ViewModel */,
+				314320B4263B1EE500BA8004 /* Service */,
+				314320B5263B1EFD00BA8004 /* Protocol */,
 				31432080263B1E9F00BA8004 /* AppDelegate.swift */,
-				31432082263B1E9F00BA8004 /* SceneDelegate.swift */,
-				31432084263B1E9F00BA8004 /* ViewController.swift */,
 				31432086263B1EA000BA8004 /* Main.storyboard */,
 				31432089263B1EA200BA8004 /* Assets.xcassets */,
-				3143208B263B1EA200BA8004 /* LaunchScreen.storyboard */,
 				3143208E263B1EA300BA8004 /* Info.plist */,
 			);
 			path = SimbirSoft;
@@ -126,6 +133,53 @@
 				314320A4263B1EA300BA8004 /* Info.plist */,
 			);
 			path = SimbirSoftUITests;
+			sourceTree = "<group>";
+		};
+		314320B0263B1EBA00BA8004 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		314320B1263B1ECE00BA8004 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				31432082263B1E9F00BA8004 /* SceneDelegate.swift */,
+				3143208B263B1EA200BA8004 /* LaunchScreen.storyboard */,
+				31432084263B1E9F00BA8004 /* ViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		314320B2263B1ED300BA8004 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		314320B3263B1EDD00BA8004 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		314320B4263B1EE500BA8004 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				314320B6263B1F2F00BA8004 /* RealmManager.swift */,
+				314320B8263B1F3700BA8004 /* RealmService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		314320B5263B1EFD00BA8004 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Protocol;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,8 +314,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				31432085263B1E9F00BA8004 /* ViewController.swift in Sources */,
+				314320B7263B1F2F00BA8004 /* RealmManager.swift in Sources */,
 				31432081263B1E9F00BA8004 /* AppDelegate.swift in Sources */,
 				31432083263B1E9F00BA8004 /* SceneDelegate.swift in Sources */,
+				314320B9263B1F3700BA8004 /* RealmService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
