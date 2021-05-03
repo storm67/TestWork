@@ -1,0 +1,6 @@
+framework module Pods_SimbirSoft_SimbirSoftUITests {
+  umbrella header "Pods-SimbirSoft-SimbirSoftUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

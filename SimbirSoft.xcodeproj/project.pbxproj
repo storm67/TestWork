@@ -3,20 +3,35 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		310FD1A4263F50130071486A /* TaskModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310FD1A3263F50130071486A /* TaskModel.swift */; };
+		31235E4826401E5B00ED7686 /* TableViewTaskModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31235E4726401E5B00ED7686 /* TableViewTaskModel.swift */; };
+		3132E044263E03450016DBA9 /* TaskListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3132E043263E03450016DBA9 /* TaskListViewController.swift */; };
+		3132E046263E03FE0016DBA9 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3132E045263E03FE0016DBA9 /* TableViewCell.swift */; };
+		3132E04A263E14E70016DBA9 /* TaskListCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3132E049263E14E70016DBA9 /* TaskListCoordinator.swift */; };
+		3137D11E263C82E0005D6BCD /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3137D11D263C82E0005D6BCD /* CollectionViewCell.swift */; };
+		3137D120263C90AD005D6BCD /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3137D11F263C90AD005D6BCD /* Extension.swift */; };
+		3137D122263C9128005D6BCD /* CalendarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3137D121263C9128005D6BCD /* CalendarModel.swift */; };
 		31432081263B1E9F00BA8004 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31432080263B1E9F00BA8004 /* AppDelegate.swift */; };
-		31432083263B1E9F00BA8004 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31432082263B1E9F00BA8004 /* SceneDelegate.swift */; };
 		31432085263B1E9F00BA8004 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31432084263B1E9F00BA8004 /* ViewController.swift */; };
-		31432088263B1EA000BA8004 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31432086263B1EA000BA8004 /* Main.storyboard */; };
 		3143208A263B1EA200BA8004 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31432089263B1EA200BA8004 /* Assets.xcassets */; };
-		3143208D263B1EA200BA8004 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3143208B263B1EA200BA8004 /* LaunchScreen.storyboard */; };
 		31432098263B1EA300BA8004 /* SimbirSoftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31432097263B1EA300BA8004 /* SimbirSoftTests.swift */; };
 		314320A3263B1EA300BA8004 /* SimbirSoftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314320A2263B1EA300BA8004 /* SimbirSoftUITests.swift */; };
-		314320B7263B1F2F00BA8004 /* RealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314320B6263B1F2F00BA8004 /* RealmManager.swift */; };
 		314320B9263B1F3700BA8004 /* RealmService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314320B8263B1F3700BA8004 /* RealmService.swift */; };
+		314320BD263B231500BA8004 /* DependencyContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314320BC263B231500BA8004 /* DependencyContainer.swift */; };
+		314320BF263B262800BA8004 /* CalendarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314320BE263B262800BA8004 /* CalendarViewModel.swift */; };
+		314320C3263B265400BA8004 /* SaveViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314320C2263B265400BA8004 /* SaveViewModel.swift */; };
+		314320C5263B281F00BA8004 /* ProtocolList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314320C4263B281F00BA8004 /* ProtocolList.swift */; };
+		314320C7263B28A200BA8004 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314320C6263B28A200BA8004 /* MainCoordinator.swift */; };
+		314320D3263B45EA00BA8004 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314320D2263B45EA00BA8004 /* MainView.swift */; };
+		314320D5263B47F400BA8004 /* DateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314320D4263B47F400BA8004 /* DateManager.swift */; };
+		314784D7263EAC1D00BC9DF9 /* TaskListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314784D6263EAC1D00BC9DF9 /* TaskListView.swift */; };
+		8A3E6769F42610E3D1742777 /* Pods_SimbirSoft.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 521339CB4C27049ECD04894B /* Pods_SimbirSoft.framework */; };
+		AF5DB0AABDAB1E8A47D05DC3 /* Pods_SimbirSoft_SimbirSoftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A32E3666D4D6413F8840AD2D /* Pods_SimbirSoft_SimbirSoftUITests.framework */; };
+		EE06EEF6CCB11490118B4C2C /* Pods_SimbirSoftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E1985D67250E31A98166086 /* Pods_SimbirSoftTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,13 +52,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0052974C406F2E0519C85F5F /* Pods-SimbirSoftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimbirSoftTests.debug.xcconfig"; path = "Target Support Files/Pods-SimbirSoftTests/Pods-SimbirSoftTests.debug.xcconfig"; sourceTree = "<group>"; };
+		18B3AAA378649F8AA8F34DB4 /* Pods-SimbirSoft-SimbirSoftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimbirSoft-SimbirSoftUITests.release.xcconfig"; path = "Target Support Files/Pods-SimbirSoft-SimbirSoftUITests/Pods-SimbirSoft-SimbirSoftUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2E1985D67250E31A98166086 /* Pods_SimbirSoftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimbirSoftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		310FD1A3263F50130071486A /* TaskModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskModel.swift; sourceTree = "<group>"; };
+		31235E4726401E5B00ED7686 /* TableViewTaskModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewTaskModel.swift; sourceTree = "<group>"; };
+		3132E043263E03450016DBA9 /* TaskListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListViewController.swift; sourceTree = "<group>"; };
+		3132E045263E03FE0016DBA9 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		3132E049263E14E70016DBA9 /* TaskListCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListCoordinator.swift; sourceTree = "<group>"; };
+		3137D11D263C82E0005D6BCD /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		3137D11F263C90AD005D6BCD /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		3137D121263C9128005D6BCD /* CalendarModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarModel.swift; sourceTree = "<group>"; };
 		3143207D263B1E9F00BA8004 /* SimbirSoft.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimbirSoft.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		31432080263B1E9F00BA8004 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		31432082263B1E9F00BA8004 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		31432084263B1E9F00BA8004 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		31432087263B1EA000BA8004 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		31432089263B1EA200BA8004 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		3143208C263B1EA200BA8004 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3143208E263B1EA300BA8004 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		31432093263B1EA300BA8004 /* SimbirSoftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimbirSoftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		31432097263B1EA300BA8004 /* SimbirSoftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimbirSoftTests.swift; sourceTree = "<group>"; };
@@ -51,8 +74,21 @@
 		3143209E263B1EA300BA8004 /* SimbirSoftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimbirSoftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		314320A2263B1EA300BA8004 /* SimbirSoftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimbirSoftUITests.swift; sourceTree = "<group>"; };
 		314320A4263B1EA300BA8004 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		314320B6263B1F2F00BA8004 /* RealmManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmManager.swift; sourceTree = "<group>"; };
 		314320B8263B1F3700BA8004 /* RealmService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmService.swift; sourceTree = "<group>"; };
+		314320BC263B231500BA8004 /* DependencyContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyContainer.swift; sourceTree = "<group>"; };
+		314320BE263B262800BA8004 /* CalendarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewModel.swift; sourceTree = "<group>"; };
+		314320C2263B265400BA8004 /* SaveViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveViewModel.swift; sourceTree = "<group>"; };
+		314320C4263B281F00BA8004 /* ProtocolList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolList.swift; sourceTree = "<group>"; };
+		314320C6263B28A200BA8004 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		314320D2263B45EA00BA8004 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		314320D4263B47F400BA8004 /* DateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateManager.swift; sourceTree = "<group>"; };
+		314784D6263EAC1D00BC9DF9 /* TaskListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListView.swift; sourceTree = "<group>"; };
+		521339CB4C27049ECD04894B /* Pods_SimbirSoft.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimbirSoft.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		593267A6779C1C99551D3EC5 /* Pods-SimbirSoft-SimbirSoftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimbirSoft-SimbirSoftUITests.debug.xcconfig"; path = "Target Support Files/Pods-SimbirSoft-SimbirSoftUITests/Pods-SimbirSoft-SimbirSoftUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		85BDC554C9E6AAC5F8DE8769 /* Pods-SimbirSoft.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimbirSoft.debug.xcconfig"; path = "Target Support Files/Pods-SimbirSoft/Pods-SimbirSoft.debug.xcconfig"; sourceTree = "<group>"; };
+		A32E3666D4D6413F8840AD2D /* Pods_SimbirSoft_SimbirSoftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimbirSoft_SimbirSoftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A56A5460C727E1E872A4D75B /* Pods-SimbirSoftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimbirSoftTests.release.xcconfig"; path = "Target Support Files/Pods-SimbirSoftTests/Pods-SimbirSoftTests.release.xcconfig"; sourceTree = "<group>"; };
+		AD481A9CDAD5BFA343637E0F /* Pods-SimbirSoft.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimbirSoft.release.xcconfig"; path = "Target Support Files/Pods-SimbirSoft/Pods-SimbirSoft.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A3E6769F42610E3D1742777 /* Pods_SimbirSoft.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE06EEF6CCB11490118B4C2C /* Pods_SimbirSoftTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +112,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF5DB0AABDAB1E8A47D05DC3 /* Pods_SimbirSoft_SimbirSoftUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +126,8 @@
 				31432096263B1EA300BA8004 /* SimbirSoftTests */,
 				314320A1263B1EA300BA8004 /* SimbirSoftUITests */,
 				3143207E263B1E9F00BA8004 /* Products */,
+				AAF891A20A3E61CEB7984F08 /* Pods */,
+				9B6538696A71A22509437D69 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,14 +144,14 @@
 		3143207F263B1E9F00BA8004 /* SimbirSoft */ = {
 			isa = PBXGroup;
 			children = (
-				314320B3263B1EDD00BA8004 /* Coordinator */,
-				314320B0263B1EBA00BA8004 /* Model */,
-				314320B1263B1ECE00BA8004 /* View */,
-				314320B2263B1ED300BA8004 /* ViewModel */,
+				314320DA263B575900BA8004 /* Model */,
+				314320B3263B1EDD00BA8004 /* Assembly */,
+				314320B1263B1ECE00BA8004 /* TaskListController */,
+				314320D6263B56D400BA8004 /* CalendarViewController */,
+				314320E2263B57F100BA8004 /* ViewModel */,
 				314320B4263B1EE500BA8004 /* Service */,
 				314320B5263B1EFD00BA8004 /* Protocol */,
 				31432080263B1E9F00BA8004 /* AppDelegate.swift */,
-				31432086263B1EA000BA8004 /* Main.storyboard */,
 				31432089263B1EA200BA8004 /* Assets.xcassets */,
 				3143208E263B1EA300BA8004 /* Info.plist */,
 			);
@@ -135,42 +176,29 @@
 			path = SimbirSoftUITests;
 			sourceTree = "<group>";
 		};
-		314320B0263B1EBA00BA8004 /* Model */ = {
+		314320B1263B1ECE00BA8004 /* TaskListController */ = {
 			isa = PBXGroup;
 			children = (
+				314320D8263B574E00BA8004 /* View */,
 			);
-			path = Model;
+			path = TaskListController;
 			sourceTree = "<group>";
 		};
-		314320B1263B1ECE00BA8004 /* View */ = {
+		314320B3263B1EDD00BA8004 /* Assembly */ = {
 			isa = PBXGroup;
 			children = (
-				31432082263B1E9F00BA8004 /* SceneDelegate.swift */,
-				3143208B263B1EA200BA8004 /* LaunchScreen.storyboard */,
-				31432084263B1E9F00BA8004 /* ViewController.swift */,
+				314320E4263B584000BA8004 /* Coordinators */,
+				314320BC263B231500BA8004 /* DependencyContainer.swift */,
 			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		314320B2263B1ED300BA8004 /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewModel;
-			sourceTree = "<group>";
-		};
-		314320B3263B1EDD00BA8004 /* Coordinator */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Coordinator;
+			path = Assembly;
 			sourceTree = "<group>";
 		};
 		314320B4263B1EE500BA8004 /* Service */ = {
 			isa = PBXGroup;
 			children = (
-				314320B6263B1F2F00BA8004 /* RealmManager.swift */,
 				314320B8263B1F3700BA8004 /* RealmService.swift */,
+				314320D4263B47F400BA8004 /* DateManager.swift */,
+				3137D11F263C90AD005D6BCD /* Extension.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -178,8 +206,105 @@
 		314320B5263B1EFD00BA8004 /* Protocol */ = {
 			isa = PBXGroup;
 			children = (
+				314320C4263B281F00BA8004 /* ProtocolList.swift */,
 			);
 			path = Protocol;
+			sourceTree = "<group>";
+		};
+		314320CB263B295D00BA8004 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				3137D11D263C82E0005D6BCD /* CollectionViewCell.swift */,
+				3132E045263E03FE0016DBA9 /* TableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		314320D6263B56D400BA8004 /* CalendarViewController */ = {
+			isa = PBXGroup;
+			children = (
+				314320D7263B56F100BA8004 /* View */,
+			);
+			name = CalendarViewController;
+			path = Service;
+			sourceTree = "<group>";
+		};
+		314320D7263B56F100BA8004 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				314320DC263B577200BA8004 /* Layer */,
+				31432084263B1E9F00BA8004 /* ViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		314320D8263B574E00BA8004 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3132E043263E03450016DBA9 /* TaskListViewController.swift */,
+				314784D6263EAC1D00BC9DF9 /* TaskListView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		314320DA263B575900BA8004 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3137D121263C9128005D6BCD /* CalendarModel.swift */,
+				310FD1A3263F50130071486A /* TaskModel.swift */,
+				31235E4726401E5B00ED7686 /* TableViewTaskModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		314320DC263B577200BA8004 /* Layer */ = {
+			isa = PBXGroup;
+			children = (
+				314320CB263B295D00BA8004 /* Cells */,
+				314320D2263B45EA00BA8004 /* MainView.swift */,
+			);
+			path = Layer;
+			sourceTree = "<group>";
+		};
+		314320E2263B57F100BA8004 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				314320BE263B262800BA8004 /* CalendarViewModel.swift */,
+				314320C2263B265400BA8004 /* SaveViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		314320E4263B584000BA8004 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				314320C6263B28A200BA8004 /* MainCoordinator.swift */,
+				3132E049263E14E70016DBA9 /* TaskListCoordinator.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		9B6538696A71A22509437D69 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				521339CB4C27049ECD04894B /* Pods_SimbirSoft.framework */,
+				A32E3666D4D6413F8840AD2D /* Pods_SimbirSoft_SimbirSoftUITests.framework */,
+				2E1985D67250E31A98166086 /* Pods_SimbirSoftTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AAF891A20A3E61CEB7984F08 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				85BDC554C9E6AAC5F8DE8769 /* Pods-SimbirSoft.debug.xcconfig */,
+				AD481A9CDAD5BFA343637E0F /* Pods-SimbirSoft.release.xcconfig */,
+				593267A6779C1C99551D3EC5 /* Pods-SimbirSoft-SimbirSoftUITests.debug.xcconfig */,
+				18B3AAA378649F8AA8F34DB4 /* Pods-SimbirSoft-SimbirSoftUITests.release.xcconfig */,
+				0052974C406F2E0519C85F5F /* Pods-SimbirSoftTests.debug.xcconfig */,
+				A56A5460C727E1E872A4D75B /* Pods-SimbirSoftTests.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -189,9 +314,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 314320A7263B1EA300BA8004 /* Build configuration list for PBXNativeTarget "SimbirSoft" */;
 			buildPhases = (
+				C581D807BE8E7FB176DCB6E2 /* [CP] Check Pods Manifest.lock */,
 				31432079263B1E9F00BA8004 /* Sources */,
 				3143207A263B1E9F00BA8004 /* Frameworks */,
 				3143207B263B1E9F00BA8004 /* Resources */,
+				F55CED6F6F2C54D7A22EE1E3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -206,6 +333,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 314320AA263B1EA300BA8004 /* Build configuration list for PBXNativeTarget "SimbirSoftTests" */;
 			buildPhases = (
+				20256AEC5F9C403D6610E20D /* [CP] Check Pods Manifest.lock */,
 				3143208F263B1EA300BA8004 /* Sources */,
 				31432090263B1EA300BA8004 /* Frameworks */,
 				31432091263B1EA300BA8004 /* Resources */,
@@ -224,9 +352,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 314320AD263B1EA300BA8004 /* Build configuration list for PBXNativeTarget "SimbirSoftUITests" */;
 			buildPhases = (
+				B1F6BB7685066607B3C00BC1 /* [CP] Check Pods Manifest.lock */,
 				3143209A263B1EA300BA8004 /* Sources */,
 				3143209B263B1EA300BA8004 /* Frameworks */,
 				3143209C263B1EA300BA8004 /* Resources */,
+				932D7DB2D59B4BEC4D968640 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -286,9 +416,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3143208D263B1EA200BA8004 /* LaunchScreen.storyboard in Resources */,
 				3143208A263B1EA200BA8004 /* Assets.xcassets in Resources */,
-				31432088263B1EA000BA8004 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,15 +436,132 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		20256AEC5F9C403D6610E20D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SimbirSoftTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		932D7DB2D59B4BEC4D968640 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SimbirSoft-SimbirSoftUITests/Pods-SimbirSoft-SimbirSoftUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SimbirSoft-SimbirSoftUITests/Pods-SimbirSoft-SimbirSoftUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SimbirSoft-SimbirSoftUITests/Pods-SimbirSoft-SimbirSoftUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1F6BB7685066607B3C00BC1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SimbirSoft-SimbirSoftUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C581D807BE8E7FB176DCB6E2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SimbirSoft-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F55CED6F6F2C54D7A22EE1E3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SimbirSoft/Pods-SimbirSoft-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SimbirSoft/Pods-SimbirSoft-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SimbirSoft/Pods-SimbirSoft-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		31432079263B1E9F00BA8004 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				314320BF263B262800BA8004 /* CalendarViewModel.swift in Sources */,
+				314320D5263B47F400BA8004 /* DateManager.swift in Sources */,
+				314320D3263B45EA00BA8004 /* MainView.swift in Sources */,
+				314320C3263B265400BA8004 /* SaveViewModel.swift in Sources */,
+				3132E046263E03FE0016DBA9 /* TableViewCell.swift in Sources */,
+				310FD1A4263F50130071486A /* TaskModel.swift in Sources */,
+				3137D122263C9128005D6BCD /* CalendarModel.swift in Sources */,
+				3132E044263E03450016DBA9 /* TaskListViewController.swift in Sources */,
+				3137D11E263C82E0005D6BCD /* CollectionViewCell.swift in Sources */,
+				31235E4826401E5B00ED7686 /* TableViewTaskModel.swift in Sources */,
+				314320C7263B28A200BA8004 /* MainCoordinator.swift in Sources */,
+				3137D120263C90AD005D6BCD /* Extension.swift in Sources */,
+				314784D7263EAC1D00BC9DF9 /* TaskListView.swift in Sources */,
 				31432085263B1E9F00BA8004 /* ViewController.swift in Sources */,
-				314320B7263B1F2F00BA8004 /* RealmManager.swift in Sources */,
 				31432081263B1E9F00BA8004 /* AppDelegate.swift in Sources */,
-				31432083263B1E9F00BA8004 /* SceneDelegate.swift in Sources */,
+				3132E04A263E14E70016DBA9 /* TaskListCoordinator.swift in Sources */,
+				314320C5263B281F00BA8004 /* ProtocolList.swift in Sources */,
+				314320BD263B231500BA8004 /* DependencyContainer.swift in Sources */,
 				314320B9263B1F3700BA8004 /* RealmService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -351,25 +596,6 @@
 			targetProxy = 3143209F263B1EA300BA8004 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		31432086263B1EA000BA8004 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				31432087263B1EA000BA8004 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		3143208B263B1EA200BA8004 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3143208C263B1EA200BA8004 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		314320A5263B1EA300BA8004 /* Debug */ = {
@@ -488,6 +714,7 @@
 		};
 		314320A8263B1EA300BA8004 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85BDC554C9E6AAC5F8DE8769 /* Pods-SimbirSoft.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -506,6 +733,7 @@
 		};
 		314320A9263B1EA300BA8004 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD481A9CDAD5BFA343637E0F /* Pods-SimbirSoft.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -524,6 +752,7 @@
 		};
 		314320AB263B1EA300BA8004 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0052974C406F2E0519C85F5F /* Pods-SimbirSoftTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -546,6 +775,7 @@
 		};
 		314320AC263B1EA300BA8004 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A56A5460C727E1E872A4D75B /* Pods-SimbirSoftTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -568,6 +798,7 @@
 		};
 		314320AE263B1EA300BA8004 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 593267A6779C1C99551D3EC5 /* Pods-SimbirSoft-SimbirSoftUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -588,6 +819,7 @@
 		};
 		314320AF263B1EA300BA8004 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18B3AAA378649F8AA8F34DB4 /* Pods-SimbirSoft-SimbirSoftUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
