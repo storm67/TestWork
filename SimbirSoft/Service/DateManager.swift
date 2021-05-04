@@ -49,8 +49,8 @@ final class DateManager {
     func getMainDateFromSince1970(start: Double, end: Double) -> ClosedRange<Int> {
         let startDate = Date(timeIntervalSince1970: start)
         let endDate = Date(timeIntervalSince1970: end)
-        let dayStart = calendar.component(.day, from: startDate) - 1
-        let dayEnd = calendar.component(.day, from: endDate) - 1
+        let dayStart = calendar.component(.day, from: startDate) 
+        let dayEnd = calendar.component(.day, from: endDate)
         print(startDate,endDate,dayStart,dayEnd)
         return dayStart...dayEnd
     }
